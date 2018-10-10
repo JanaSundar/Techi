@@ -339,6 +339,12 @@ footer p {
   input[type="submit"] {
     width: 300px;
   }
+  input[type="email"]:hover,
+  input[type="text"]:hover,
+  input[type="password"]:hover,
+  input[type="submit"]:hover {
+    width: 320px;
+  }
 }
 
 @media (max-height: 640px) {
